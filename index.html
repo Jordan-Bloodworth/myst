@@ -22,8 +22,22 @@
   </head>
   <body class="bg-[#151515]">
     <header>
-      <video autoplay loop muted class="object-cover md:w-screen">
-        <source src="./videos/myst-hero-animation.mp4" type="video/mp4" />
+      <video
+        autoplay
+        loop
+        muted
+        class="hidden lg:block object-cover md:w-screen"
+      >
+        <source
+          src="./videos/myst-hero-animation-gradient-desktop.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <video autoplay loop muted class="lg:hidden">
+        <source
+          src="./videos/myst-hero-animation-gradient-mobile.mp4"
+          type="video/mp4"
+        />
       </video>
     </header>
   </body>
