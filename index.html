@@ -8,11 +8,9 @@
     <script>
       tailwind.config = {
         theme: {
-          extend: {
-            fontFamily: {
-              regular: ["Azo-Regular"],
-              bold: ["Azo-Bold"],
-            },
+          fontFamily: {
+            azoRegular: ["Azo-Regular", "sans-serif"],
+            azoBold: ["Azo-Bold", "sans-serif"],
           },
         },
       };
@@ -40,5 +38,31 @@
         />
       </video>
     </header>
+    <main class="flex-col">
+      <h1
+        class="flex justify-center mt-16 text-3xl lg:text-5xl text-white font-azoBold"
+      >
+        Be The First to Hear
+      </h1>
+      <div class="flex flex-col ml-auto mr-auto w-64 lg:w-96">
+        <button class="mt-16">
+          <a href="https://open.spotify.com">
+            <img src="./images/spotify-button.png" alt="" />
+          </a>
+        </button>
+        <button class="mt-8">
+          <a
+            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjsvfvO9uj6AhUEloYKHbMQCmUYABAAGgJ2dQ&ae=2&ohost=www.google.com&cid=CAESbOD2vv7906NrOxioM6JGkuh2JamgOAZ3zm39rngrPseYbOWNET4Ogh7h7PZC0DcYhEMGqOHmOBe2XNK6m5cFk1sVVHSQIoOaTFSHYwv_2CAFPNFQNHtQlmEC3QhU15qZVNvju5rLFZIwtEDd3g&sig=AOD64_3snmq4JdvuZjm_PJEGmIVL2-JrZw&q&adurl&ved=2ahUKEwjv0-7O9uj6AhWUmIQIHYuNDC0Q0Qx6BAgFEAE"
+          >
+            <img src="./images/apple-music-button.png" alt="" />
+          </a>
+        </button>
+        <button class="mt-8">
+          <a href="https://bandcamp.com">
+            <img src="./images/bandcamp-button.png" alt="" />
+          </a>
+        </button>
+      </div>
+    </main>
   </body>
 </html>

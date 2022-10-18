@@ -1,9 +1,9 @@
 @font-face {
-	font-family: Azo-Regular;
+	font-family: "Azo-Regular";
 	src: url("../fonts/AzoSans-Regular.ttf");
 }
 
 @font-face {
-	font-family: Azo-Bold;
+	font-family: "Azo-Bold";
 	src: url("../fonts/AzoSans-Bold.ttf");
 }
